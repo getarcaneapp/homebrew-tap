@@ -3,7 +3,7 @@ cask "arcane-cli" do
   name "arcane-cli"
   desc "Arcane CLI - Modern Docker Management, Designed for Everyone."
   homepage "https://getarcane.app"
-  version "1.16.3"
+  version "1.16.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "arcane-cli" do
   on_macos do
     on_intel do
       url "https://github.com/getarcaneapp/arcane/releases/download/v#{version}/arcane-cli_darwin_amd64.tar.gz"
-      sha256 "972b654218241b22195b2c18c6cefe13a7872a705cd8be7dd018581c9e3d8652"
+      sha256 "5b42307c419524a0777ad198646ed3664ae99a8d2209c5f024c9fe0956f352d0"
     end
     on_arm do
       url "https://github.com/getarcaneapp/arcane/releases/download/v#{version}/arcane-cli_darwin_arm64.tar.gz"
-      sha256 "03b8f52ce72c2084a68beeae1b52109f4ae9326e5e09e1518d49fa02ba60703a"
+      sha256 "2d55826f1fde4064e61d881fecf4cd792fb303ff6c5b29f8e0ad90ab5824dd49"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/getarcaneapp/arcane/releases/download/v#{version}/arcane-cli_linux_amd64.tar.gz"
-      sha256 "317a6260c32799ce7e8d540ba160013e6307a369ab7939f5ec46fd0cac22fa9c"
+      sha256 "9b1028180bfb24c3d4f3ce1c0746b517e3f772a46a20e263f7da3cdea6dffffb"
     end
     on_arm do
       url "https://github.com/getarcaneapp/arcane/releases/download/v#{version}/arcane-cli_linux_arm64.tar.gz"
-      sha256 "c39b167fab74bc65c33829adf2a605800ee744c7b8b976ead6405ff5a0ccf33c"
+      sha256 "c27779168385f5036536581751b847517f0168b162aaee4cdc848e552747e4eb"
     end
   end
 
