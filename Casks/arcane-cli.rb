@@ -34,7 +34,7 @@ cask "arcane-cli" do
 
   binary "arcane-cli"
 
-  generate_completions_from_executable "arcane-cli", "completion",
+  generate_completions_from_executable "arcane-cli",
     shell_parameter_format: :cobra,
     shells: [:bash, :zsh, :fish, :pwsh]
 
