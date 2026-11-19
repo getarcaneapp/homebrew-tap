@@ -4,16 +4,16 @@ cask "arcane-cli" do
 
   on_macos do
     depends_on arch: :arm64
-    sha256 "574c6e2411a2bf7b84b7825a0574b88ee8072fb21869e1c698839ea06a3d8b36"
+    sha256 "67bfd2992bc6a802898a0f17dde735bc67a77a5105abf65c47868546aa311e4f"
     url "https://github.com/getarcaneapp/arcane/releases/download/v#{version}/arcane-cli_darwin_arm64.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "8fdc3f903dcc6ca24f9a19856f2a76221cd5553084a3a43f64d3dc20b41f33a1"
+      sha256 "ae2fe4cb20f0dedb024fdb698b7bd4dbb600764c6fdc6d35dd8127b297d04da6"
       url "https://github.com/getarcaneapp/arcane/releases/download/v#{version}/arcane-cli_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b2d8897a47e36c8930ffb8e411bcee8cc3811ca6c08da8d3c18b8c50b4536711"
+      sha256 "5e6a92950b06734131c9e0bcd61ed4ddc0a42fbe806d1cd81b3e6ca6d055143d"
       url "https://github.com/getarcaneapp/arcane/releases/download/v#{version}/arcane-cli_linux_amd64.tar.gz"
     end
   end
